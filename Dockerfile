@@ -5,6 +5,6 @@ USER root
 
 RUN export DEBIAN_FRONTEND=noninteractive \
  && apt-get update \
- && apt-get install -y openjdk-17-jdk maven
+ && apt-get install -y openjdk-21-jdk maven
 
 USER jenkins
