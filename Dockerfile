@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.587-jdk25
+FROM jenkins/jenkins:2.589-jdk25
 LABEL MAINTAINER="Iordanis Kostelidis <kostelidis@ieee.org>"
 
 USER root
